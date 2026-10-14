@@ -1,0 +1,188 @@
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr" data-theme="light">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orjoan Aldabaibah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    </head>
+    <body>
+    <!-- sky: one sun (moon at night), clouds (stars at night) -->
+    <div class="sky" aria-hidden="true">
+        <div class="orb"></div>
+        <span class="cloud" style="--x:6%;--y:16%;--w:150px"></span>
+        <span class="cloud" style="--x:34%;--y:9%;--w:110px"></span>
+        <span class="cloud" style="--x:58%;--y:30%;--w:170px"></span>
+        <span class="cloud" style="--x:80%;--y:50%;--w:120px"></span>
+        <span class="cloud" style="--x:12%;--y:58%;--w:130px"></span>
+        <span class="cloud" style="--x:44%;--y:72%;--w:160px"></span>
+        <span class="cloud" style="--x:72%;--y:86%;--w:110px"></span>
+        <span class="star big" style="--x:55%;--y:9%;--s:5px;--d:0.4s"></span>
+        <span class="star" style="--x:67%;--y:35%;--s:2px;--d:1.0s"></span>
+        <span class="star" style="--x:34%;--y:56%;--s:3px;--d:3.3s"></span>
+        <span class="star" style="--x:64%;--y:40%;--s:4px;--d:2.1s"></span>
+        <span class="star" style="--x:18%;--y:32%;--s:2px;--d:1.9s"></span>
+        <span class="star" style="--x:80%;--y:12%;--s:4px;--d:1.1s"></span>
+        <span class="star" style="--x:97%;--y:5%;--s:2px;--d:0.3s"></span>
+        <span class="star" style="--x:59%;--y:34%;--s:3px;--d:0.2s"></span>
+        <span class="star big" style="--x:38%;--y:50%;--s:5px;--d:2.1s"></span>
+        <span class="star" style="--x:13%;--y:49%;--s:2px;--d:0.6s"></span>
+        <span class="star" style="--x:44%;--y:87%;--s:3px;--d:2.9s"></span>
+        <span class="star" style="--x:76%;--y:20%;--s:4px;--d:2.4s"></span>
+        <span class="star" style="--x:62%;--y:48%;--s:2px;--d:2.8s"></span>
+        <span class="star" style="--x:4%;--y:79%;--s:2px;--d:2.5s"></span>
+        <span class="star" style="--x:10%;--y:42%;--s:3px;--d:1.3s"></span>
+        <span class="star" style="--x:11%;--y:60%;--s:2px;--d:2.2s"></span>
+        <span class="star big" style="--x:96%;--y:93%;--s:5px;--d:0.5s"></span>
+        <span class="star" style="--x:47%;--y:13%;--s:3px;--d:2.7s"></span>
+        <span class="star" style="--x:55%;--y:6%;--s:2px;--d:3.5s"></span>
+        <span class="star" style="--x:3%;--y:82%;--s:4px;--d:2.6s"></span>
+        <span class="star" style="--x:76%;--y:4%;--s:3px;--d:2.4s"></span>
+        <span class="star" style="--x:13%;--y:84%;--s:2px;--d:0.5s"></span>
+        <span class="star" style="--x:55%;--y:45%;--s:3px;--d:1.6s"></span>
+        <span class="star" style="--x:60%;--y:59%;--s:4px;--d:1.9s"></span>
+        <span class="star big" style="--x:68%;--y:68%;--s:5px;--d:0.1s"></span>
+        <span class="star" style="--x:13%;--y:64%;--s:4px;--d:0.1s"></span>
+        <span class="star" style="--x:65%;--y:81%;--s:2px;--d:2.6s"></span>
+        <span class="star" style="--x:34%;--y:4%;--s:3px;--d:1.5s"></span>
+        <span class="star" style="--x:88%;--y:81%;--s:2px;--d:0.8s"></span>
+        <span class="star" style="--x:45%;--y:87%;--s:2px;--d:3.7s"></span>
+        <span class="star" style="--x:32%;--y:44%;--s:3px;--d:1.6s"></span>
+        <span class="star" style="--x:27%;--y:84%;--s:3px;--d:1.7s"></span>
+        <span class="star big" style="--x:29%;--y:52%;--s:5px;--d:0.9s"></span>
+    </div>
+    
+    <header class="navbar">
+        <a class="brand" href="#about">Orjoan.exe</a>
+        <nav>
+        <a href="#about" data-translate="nav_about">About</a>
+        <a href="#skills" data-translate="nav_skills">Skills</a>
+        <a href="#projects" data-translate="nav_projects">Projects</a>
+        <a href="#volunteering" data-translate="nav_volunteer">Volunteering</a>
+        <a href="#hobbies" data-translate="nav_hobbies">Hobbies</a>
+        <a href="#contact" data-translate="nav_contact">Contact</a>
+        </nav>
+        <div class="controls">
+        <button id="theme-btn" type="button" data-translate="btn_theme">Theme</button>
+        <button id="lang-btn" type="button">عربي</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="about" class="about card">
+        <img id="avatar" src="images/photo.jpeg" alt="Orjoan">
+        <div>
+            <p class="hi" data-translate="hero_hi">Hi, I'm</p>
+            <h1 data-translate="hero_name">Orjoan Aldabaibah</h1>
+            <p class="role" data-translate="hero_role">Web Developer, Backend Developer and Data Analyst</p>
+            <p data-translate="about_text">I'm a developer who loves turning ideas into working products. I build full-stack web, turn data into clear dashboards, and care about clean, reliable code. I learn fast, solve problems calmly, and enjoy working in a team.</p>
+            <ul class="chips facts">
+            <li data-translate="fact1">University of Jordan graduate</li>
+            <li data-translate="fact2">Data analytics intern at Dimensions</li>
+            <li data-translate="fact3">Linux Society and IEEE volunteer</li>
+            </ul>
+            <p class="links">
+            <a class="btn" href="https://github.com/OrjoanAli" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/orjoan-aldabaibah-9984982b6" target="_blank" rel="noopener">LinkedIn</a>
+            </p>
+        </div>
+        </section>
+    
+        <section id="skills">
+        <h2 data-translate="skills_title">Skills</h2>
+        <div class="grid">
+            <div class="card"><h3 data-translate="sk_data">Data and BI</h3><p>Power BI, SQL, Python, Excel</p></div>
+            <div class="card"><h3 data-translate="sk_web">Web development</h3><p>HTML, CSS, JavaScript, PHP, Laravel</p></div>
+            <div class="card"><h3 data-translate="sk_tools">Tools</h3><p>Git, GitHub, Postman, Firebase, Linux</p></div>
+            <div class="card"><h3 data-translate="sk_lang">Languages</h3><p data-translate="sk_lang_list">Arabic, English, Japanese</p></div>
+        </div>
+        </section>
+    
+        <section id="projects">
+        <h2 data-translate="projects_title">Projects</h2>
+        <div class="grid">
+            <article class="card"><h3>SCOPS</h3><p data-translate="p0_desc">Subscription management app, my graduation project.</p><a href="https://www.youtube.com/watch?v=Cv_4JavyY1M" target="_blank" rel="noopener" data-translate="view">View project</a></article>
+            <article class="card"><h3 data-translate="p1_title">Lost and Found System</h3><p data-translate="p1_desc">A web system for reporting lost and found items.</p><a href="https://github.com/OrjoanAli/lost-and-found-system" target="_blank" rel="noopener" data-translate="view">View project</a></article>
+            <article class="card"><h3 data-translate="p2_title">Solartec Store</h3><p data-translate="p2_desc">A website for sustainable energy devices.</p><a href="https://github.com/OrjoanAli/solartec-sustainable-store" target="_blank" rel="noopener" data-translate="view">View project</a></article>
+            <article class="card"><h3 data-translate="p3_title">Codescape (IEEE)</h3><p data-translate="p3_desc">Event website for an IEEE competition.</p><a href="https://github.com/OrjoanAli/Codeescape-IEEE-Competition" target="_blank" rel="noopener" data-translate="view">View project</a></article>
+        </div>
+        </section>
+
+        <section id="education">
+        <h2 data-translate="edu_title">Education</h2>
+        <div class="card">
+            <p class="role" data-translate="edu1_degree">Bachelor’s degree in Business Information Technology</p>
+            <p data-translate="edu1_school">University of Jordan</p>
+
+            <p class="role" data-translate="edu2_track">Cyber and Web Essentials track</p>
+            <p data-translate="edu2_school">42 Amman</p>
+        </div>
+        </section>
+    
+        <section id="volunteering">
+        <h2 data-translate="vol_title">Volunteering</h2>
+        <ol class="timeline">
+        <li>
+            <span class="date" data-translate="v1_date">Oct 2023 – Oct 2024</span>
+            <h3 data-translate="v1_role">PR Team Member</h3>
+            <p data-translate="v1_org">Linux Society</p>
+        </li>
+        <li>
+            <span class="date" data-translate="v2_date">Jan 2024 – Jan 2025</span>
+            <h3 data-translate="v2_role">Geeks Team Member</h3>
+            <p data-translate="v2_org">IEEE Computer Society</p>
+        </li>
+        <li>
+            <span class="date" data-translate="v3_date">Oct 2024 – Oct 2025</span>
+            <h3 data-translate="v3_role">PR Events Supervisor</h3>
+            <p data-translate="v3_org">Linux Society</p>
+        </li>
+        <li>
+            <span class="date" data-translate="v4_date">Feb 2025 – Oct 2025</span>
+            <h3 data-translate="v4_role">Geeks Sub-Secretary</h3>
+            <p data-translate="v4_org">IEEE Computer Society</p>
+        </li>
+        <li>
+            <h3 data-translate="v5_role">Organizer</h3>
+            <p data-translate="v5_org">Hult Prize, University of Jordan</p>
+        </li>
+        <li>
+            <h3 data-translate="v6_role">Organizer</h3>
+            <p data-translate="v6_org">Beside.jo</p>
+        </li>
+        </ol>
+        </section>
+    
+        <section id="hobbies">
+        <h2 data-translate="hobbies_title">Hobbies</h2>
+        <ul class="chips">
+            <li data-translate="h1">Gaming</li>
+            <li data-translate="h2">Doing puzzles</li>
+        </ul>
+        </section>
+    
+        <section id="contact">
+        <h2 data-translate="contact_title">Contact</h2>
+        <form action="mailto:orjoanaldabaiba@gmail.com" method="post" enctype="text/plain">
+            <label for="name" data-translate="label_name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <label for="email" data-translate="label_email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <label for="message" data-translate="label_msg">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" data-translate="send">Send message</button>
+        </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p data-translate="footer">Made by Orjoan Aldabaibah</p>
+        <p>
+        <a href="https://github.com/OrjoanAli" target="_blank" rel="noopener">GitHub</a> |
+        <a href="https://www.linkedin.com/in/orjoan-aldabaibah-9984982b6" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+    </footer>
+    </body>
+    </html>
